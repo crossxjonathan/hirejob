@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile Pekerja</title>
+    <script>
+        function saveSkill() {
+            const messageElement = document.getElementById("message");
+            messageElement.textContent = "berhasil!!";
+        }
+    </script>
+    <link rel="stylesheet" href="../assets/editProfilePekerja/style.css">
+</head>
+
+<body>
+    <section id="main">
+        <div class="container">
+            <div class="logo">
+                <img src="../assets/img/Group 980 1.png" alt="logo">
+            </div>
+            <nav id="menu">
+                <div class="notification">
+                <img src="../assets/img/bell (1) 1.png" alt="">
+            </div>
+            <div class="mail">
+                <img src="../assets/img/mail (3) 1.png" alt="mail">
+            </div>
+            <div class="profilePic">
+                <img src="../assets/img/Mask Group (1).png" alt="profilePic">
+            </div>
+            </nav>
+            <div class="rectangleHeader" />
+            <div class="profileRectangle">
+                <div class="profile1">
+                    <img src="../assets/img/Ellipse 325.svg" alt="picture">
+                </div>
+                <div class="edit">
+                    <img src="../assets/img/edit (1) 1.png" alt="">
+                    <h1>Edit</h1>
+                </div>
+                <div class="name">
+                    <h1>Louis Tomlinson</h1>
+                </div>
+                <div class="job">
+                    <p>Web Developer</p>
+                </div>
+                <div class="location">
+                    <img src="../assets/img/Group 1185.png" alt="location">
+                </div>
+                <div class="jobtitle">
+                    <p>Freelancer</p>
+                </div>
+                <div class="saveBtn">
+                    <button onclick="window.location.href='./landingpage.html'">Simpan</button>
+                </div>
+                <br>
+                <div class="cancelBtn">
+                    <button onclick="window.location.href='./editProfilePerusahaan.html'">Batal</button>
+                </div>
+                <div class="white-table">
+                    <div class="personal_info">
+                        <h1>Data diri</h1>
+                    </div>
+                    <hr>
+                    <div>
+                        <div class="label">
+                            <p>Nama Perusahaan</p>
+                        </div>
+                        <input type="text" id="companyName" name="companyName" placeholder="Masukan nama perusahaan">
+                        <div class="label">
+                            <p>Bidang</p>
+                        </div>
+                        <input type="text" id="sector" name="sector"
+                            placeholder="Masukan bidang perusahaan ex : Financial">
+                        <div class="label">
+                            <p>Kota</p>
+                        </div>
+                        <input type="text" id="city" name="city" placeholder="Masukan kota">
+                        <div class="label">
+                            <p>Deskripsi singkat</p>
+                        </div>
+                        <div class="description">
+                            <input type="text" id="description" name="description"
+                                placeholder="Tuliskan deskripsi singkat">
+                        </div>
+                    </div>
+                    <div class="white-table2">
+                        <div class="skill_info">
+                            <h1>Skill</h1>
+                        </div>
+                        <hr>
+                        <div class="skill-text">
+                            <input type="text" id="skill" name="skill" placeholder="Java">
+                        </div>
+                        <div class="saveSkill">
+                            <button onclick="saveSkill()">Simpan</button>
+                            <p id="message"></p>
+                        </div>
+                    </div>
+                    <div class="white-table3">
+                        <div class="experience_info">
+                            <h1>Pengalaman Kerja</h1>
+                        </div>
+                        <hr>
+                        <div class="label">
+                            <p>Posisi</p>
+                            <input type="text" id="experience_info" name="experience_info" placeholder="Web Developer">
+                        </div>
+                        <div class="label3">
+                            <p>Nama Perusahaan</p>
+                            <div class="company">
+                                <input type="text" id="companyName" name="companyName" placeholder="PT Harus bisa">
+                            </div>
+                            <div class="date">
+                                <p>Bulan/Tahun</p>
+                                <input type="text" id="date" name="date" placeholder="Januari 2018">
+                            </div>
+                            <div class="desc2">
+                                <p>Deskripsi singkat</p>
+                            </div>
+                            <div class="description2">
+                                <input type="text" id="description" name="description"
+                                    placeholder="Tuliskan deskripsi singkat">
+                                <div class="linegrey" />
+                            </div>
+                            <div class="editExperience">
+                                <button onclick="window.location.href='./editProfilePerusahaan.html'">Tambah pengalaman kerja</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="white-table4">
+                        <div class="portofolio_info">
+                            <h1>Portofolio</h1>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="label">
+                                <p>Nama aplikasi</p>
+                            </div>
+                            <input type="text" id="companyName" name="companyName" placeholder="Masukan nama aplikasi">
+                            <div class="label">
+                                <p>Link repository</p>
+                            </div>
+                            <input type="text" id="sector" name="sector" placeholder="Masukan link repository">
+                        </div>
+                        <div class="label1">
+                            <p>Type portofolio</p>
+                        </div>
+                        <div class="check-portofolio">
+                            <label class="aplication-mobile">
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                                <p>Aplikasi Mobile</p>
+                            </label>
+                            <label class="aplication-web">
+                                <input type="radio" name="radio">
+                                <span class="checkmark"></span>
+                                <p>Aplikasi Web</p>
+                            </label>
+                        <div class="label2">
+                            <p>Upload gambar</p>
+                        </div>
+                            <div class="upload-frame">
+                                <div class="upload-image">
+                                    <img src="../assets/img/Group.png" alt="upload-image">
+                                    <h1>Drag & Drop untuk Upload Gambar Aplikasi Mobile</h1>
+                                    <p>Atau cari untuk mengupload file dari direktorimu.</p>
+                                </div>
+                                <div class="image-resolution">
+                                    <img src="../assets/img/Group (1).png" alt="image-resolution">
+                                    <p>High-Res Image PNG, JPG or GIF</p>
+                                </div>
+                                <div class="size-image">
+                                    <img src="../assets/img/expand 2.png" alt="size-image">
+                                    <p>Size</p>
+                                </div>
+                                <div class="size-image2">
+                                    <p>1080x1920 or 600x800</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lined"/>
+                    </div>
+                    <div class="cancel-portofolio">
+                        <button onclick="window.location.href='./editProfilePerusahaan.html'">Batal</button>
+                    </div>
+                    <div class="footer">
+                        <div class="logo-footer">
+                            <img src="../assets/img/Group 978 1.png" alt="logo-footer">
+                        </div>
+                        <div class="text-footer">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus
+                                auctor.
+                            </p>
+                        </div>
+                        <div class="white-line" />
+                        <div class="copyright">
+                            <p>2020 Pewworld. All right reserved</p>
+                        </div>
+                        <div class="phone">
+                            <p>Telephone</p>
+                        </div>
+                        <div class="email">
+                            Email
+                        </div>
+                    </div>
+</body>
+
+</html>

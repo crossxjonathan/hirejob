@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap') screen and (min-width: 768px);
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .notification {
+    display: flex;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 0px;
+}
+
+header .mail {
+    display: flex;
+    position: absolute;
+    margin-left: 1160px;
+    margin-top: 0px;
+}
+
+header .profilePic {
+    display: flex;
+    position: absolute;
+    margin-left: 1230px;
+    margin-top: -4px;
+}
+
+.container .rectangleHeader {
+    position: relative;
+    background-color: #5E50A1;
+    width: 1440px;
+    height: 411px;
+    top: 100px;
+    margin-left: -40px;
+}
+
+.container .profileRectangle {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 357px;
+    height: 1047px;
+    top: -250px;
+    left:60px;
+    border-radius: 8px;
+}
+
+.profileRectangle .profile1 img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profileRectangle .name h1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    width: 174px;
+    height: 56px;
+    top: 50px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 56px;
+}
+
+.profileRectangle .job p {
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    width: 297px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.profileRectangle .location p {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    width: 166px;
+    height: 20px;
+    top: 5px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.profileRectangle .location svg {
+    margin-left: 30px;
+    margin-top: -13px;
+}
+
+.profileRectangle .position p {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    width: 69px;
+    height: 20px;
+    top: 10px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.profileRectangle .description p {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    width: 297px;
+    height: 96px;
+    top: 30px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.profileRectangle .hireBtn button {
+    position: relative;
+    background-color: #5E50A1;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    width: 297px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    left: 8%;
+    top: 70px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.profileRectangle .title h1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    width: 44px;
+    height: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    left: 8%;
+    top: 95px;
+}
+
+.profileRectangle .skill1 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 70px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 30px;
+    top: 106px;
+}
+
+.profileRectangle .skill2 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 99px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 113px;
+    top: 78px;
+}
+
+.profileRectangle .skill3 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 76px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 225px;
+    top: 50px;
+}
+
+.profileRectangle .skill4 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 99px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 30px;
+    top: 61px;
+}
+
+.profileRectangle .skill5 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 49px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 140px;
+    top: 33px;
+}
+
+.profileRectangle .skill6 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 76px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 200px;
+    top: 6px;
+}
+
+.profileRectangle .skill7 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 49px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 30px;
+    top: 16px;
+}
+
+.profileRectangle .skill8 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 76px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 92px;
+    top: -12px;
+}
+
+.profileRectangle .skill9 {
+    background-color: #FBB01799;
+    color: #FFFFFF;
+    width: 76px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    font-size: 12px;
+    border: 2px #FBB017;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    position: relative;
+    left: 180px;
+    top: -40px;
+}
+
+.profileRectangle .socialMedia .email img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: -10px;
+}
+
+.profileRectangle .socialMedia .instagram img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: 10px;
+}
+
+.profileRectangle .socialMedia .github img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: 30px;
+}
+
+.profileRectangle .socialMedia .gitlab img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 30px;
+    top: 50px;
+}
+
+.profileRectangle .socialMedia .email p {
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 70px;
+    top: -33px;
+}
+
+.profileRectangle .socialMedia .instagram p {
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 70px;
+    top: -15px;
+}
+
+.profileRectangle .socialMedia .github p {
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 70px;
+    top: 5px;
+}
+
+.profileRectangle .socialMedia .gitlab p {
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 70px;
+    top: 25px;
+}
+
+.container .white-table {
+    position: relative;
+    background-color: #FFFFFF;
+    width: 783px;
+    height: 516px;
+    top: -1300px;
+    left: 450px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.white-table .portofolio h1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 56px;
+    width: 106px;
+    height: 56px;
+    left: 50px;
+    top: 10px;
+}
+
+.white-table .purpleline {
+    position: relative;
+    width: 106px;
+    height: 1px;
+    margin-left: 50px;
+    top: 5px;
+    border: 4px solid #5E50A1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.white-table .Pengalaman h1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #9EA0A5;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 56px;
+    width: 106px;
+    height: 56px;
+    left: 180px;
+    top: -53px;
+    text-wrap: nowrap;
+}
+
+.white-table .portofolioPic .image1 {
+    position: relative;
+    left: 50px;
+    top: -20px;
+    width: 219px;
+    height: 148px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.white-table .portofolioPic .image2 {
+    position: relative;
+    left: 290px;
+    top: -170px;
+    width: 219px;
+    height: 148px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.white-table .portofolioPic .image3 { 
+    position: relative;
+    left: 530px;
+    top: -320px;
+    width: 219px;
+    height: 148px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.white-table .portofolioPic .image4 { 
+    position: relative;
+    left: 50px;
+    top: -250px;
+    width: 219px;
+    height: 148px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.white-table .portofolioPic .image5 { 
+    position: relative;
+    left: 290px;
+    top: -400px;
+    width: 219px;
+    height: 148px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.white-table .portofolioPic .image6 { 
+    position: relative;
+    left: 530px;
+    top: -550px;
+    width: 219px;
+    height: 148px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.white-table .portofolioPic .namePic1 p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 101px;
+    height: 24px;
+    left: 100px;
+    top: -750px;
+}
+
+.white-table .portofolioPic .namePic2 p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 101px;
+    height: 24px;
+    left: 340px;
+    top: -775px;
+    text-wrap: nowrap;
+}
+
+.white-table .portofolioPic .namePic3 p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 101px;
+    height: 24px;
+    left: 550px;
+    top: -800px;
+    text-wrap: nowrap;
+}
+
+.white-table .portofolioPic .namePic4 p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 101px;
+    height: 24px;
+    left: 100px;
+    top: -600px;
+}
+
+.white-table .portofolioPic .namePic5 p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 101px;
+    height: 24px;
+    left: 335px;
+    top: -625px;
+    text-wrap: nowrap;
+}
+
+.white-table .portofolioPic .namePic6 p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #1F2A36;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 101px;
+    height: 24px;
+    left: 550px;
+    top: -650px;
+    text-wrap: nowrap;
+}
+
+.footer {
+    background-color: #5E50A1;
+    width: 1440px;
+    height: 401px;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+
+.footer .logo-footer {
+    position: relative;
+    margin-left: 150px;
+    top: 100px;
+    width: 178px;
+    height: 50px;
+}
+
+.footer .text-footer {
+    width: 281px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.footer .white-line {
+    position: relative;
+    width: 1150px;
+    height: 1px;
+    margin-left: 150px;
+    top: 100px;
+    border: 1px solid white;
+}
+
+.footer .copyright {
+    position: relative;
+    width: 281px;
+    height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    top: 10px;
+    left: -5px;
+}
+
+.footer .phone,
+.footer .email {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    width: 68px;
+    height: 28px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.footer .phone {
+    left: 850px;
+    top: -20px;
+}
+
+.footer .email {
+    left: 1100px;
+    top: -50px;
+}
