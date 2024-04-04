@@ -4,6 +4,9 @@
 ![alt text](https://github.com/crossxjonathan/hirejob/blob/main/assets/interface/landingpage.png?raw=true)
 ![alt text](https://github.com/crossxjonathan/hirejob/blob/main/assets/interface/login.png?raw=true)
 ![alt text](https://github.com/crossxjonathan/hirejob/blob/main/assets/interface/profile%20portofolio.png?raw=true)
+
+LINK WEBSITE = https://hirejob-firmanjonathan.vercel.app/
+
 # hirejob
  name = firman jonathan
  total tugas = 6 page
